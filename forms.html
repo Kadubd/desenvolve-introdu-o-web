@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formularios</title>
+    </head>
+    <body>
+        <h1>pesquisa de satisfação</h1>
+        <form action="pagina_destino.html" method="post">
+            <input type="text" placeholder="Nome Completo">
+            <input type="email" placeholder="EMAIL">
+            <input type="number" placeholder="Telefone para contato">
+            <p>
+                Como você classificaria sua satisfação?
+                <input type="radio" id="ns" name="cs">
+                <label for="ns">Nada Satisfeito</label>
+                <input type="radio" id="ss" name="cs">
+                <label for="ss">Satisfeito</label>
+                <input type="radio" id="ms" name="cs">
+                <label for="ms">Muito Satisfeito</label>
+            </p>
+            <p>
+                Com que frequencia você utiliza nossos serviços?
+                <input type="radio" id="up" name="uso">
+                <label for="up">Uso Pouco</label>
+                <input type="radio" id="uc" name="uso">
+                <label for="uc">Uso Casual</label>
+                <input type="radio" id="um" name="uso">
+                <label for="um">Uso Muito</label>
+            </p>
+            <p>
+                <label for="E">O que você mais gostou?</label>
+                <select id="E:">
+                    <option>design</option>
+                    <option>funcionabilidade</option>
+                    <option>navegação</option>
+                    <option>velocidade</option>
+                    <option>valor</option>
+                    <option>atendimento ao usuario</option>
+                    <option>Nada</option>
+                    <option>outro</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="permissao">
+                <label for="permissao">O usuario permite que compartilhemos suas respostas com terceiros</label>
+            </p>
+            <input type="submit" value="enviar respostas">
+        </form>
+    </body>
+</html>
