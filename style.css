@@ -1,0 +1,29 @@
+h1{
+    font-family: fantasy;
+    color: #2C4001;
+}
+p{
+    font-family: cursive;
+    color: #758C20;
+}
+a{
+    color: #3E5902;
+}
+a:hover{
+    color: #73ff86;
+}
+body{
+    background-color: #BEC76E;
+}
+h2{
+    color: #2C4001;
+}
+section{
+    color: #2C4001;
+}
+h3{
+    color: #2C4001;
+}
+li{
+    color: #758C20;
+}
