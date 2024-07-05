@@ -1,0 +1,14 @@
+a{
+    font-style: normal;
+    font-weight: bold;
+}
+a:hover{
+    color: blue;
+}
+a:visited {
+    font-weight: normal;
+    color: green;
+}
+.div1{
+    font-weight: normal;
+}
