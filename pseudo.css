@@ -1,14 +1,24 @@
 a{
-    font-style: normal;
+    color: aqua;
     font-weight: bold;
 }
 a:hover{
-    color: blue;
+    color: rgb(38, 133, 133);
 }
 a:visited {
     font-weight: normal;
-    color: green;
+    color: rgb(38, 133, 133);
 }
-.div1{
-    font-weight: normal;
+.main p:first-of-type:first-letter{
+font-size: 3em;
+font-family: Arial;
+float: left;
+}
+.desing-selectio li{
+    border-top: blue solid 1px;
+    padding-top: 5px;
+}
+.desing-selection li:last-of-type{
+    border-bottom: blue solid 1px;
+    padding-bottom: 5px;
 }
