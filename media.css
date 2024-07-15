@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    .desing-selection{
+        position: static;
+        width: 100%;
+    }
+    .explanation{
+        border-right: none;
+        width: 100%;
+    }
+    #zen-intro{
+        height: auto;
+    }
+    .participation{
+        flex-direction: column;
+    }
+    p{
+        text-indent: 0;
+    }
+}
+@media print{
+    html{
+        font-family: georgia;
+    }
+    #zen-intro header{
+        background-color: rgb(255, 255, 255);
+        color: blue;
+    }
+}
