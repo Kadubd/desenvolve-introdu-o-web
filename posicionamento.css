@@ -1,0 +1,16 @@
+.page-wrapper{
+    position: relative;
+}
+.explanation{
+    width: 60%;
+    margin-right: 35%;
+    border-right: black 1px solid;
+    padding-right: 10%;
+}
+#desing-selection{
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
